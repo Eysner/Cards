@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB45A2FA1E4C7A890080AB1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB45A2F91E4C7A890080AB1A /* main.m */; };
+		AB45A2FD1E4C7A890080AB1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB45A2FC1E4C7A890080AB1A /* AppDelegate.m */; };
+		AB45A3001E4C7A890080AB1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB45A2FF1E4C7A890080AB1A /* ViewController.m */; };
+		AB45A3031E4C7A890080AB1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB45A3011E4C7A890080AB1A /* Main.storyboard */; };
+		AB45A3051E4C7A890080AB1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB45A3041E4C7A890080AB1A /* Assets.xcassets */; };
+		AB45A3081E4C7A890080AB1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB45A3061E4C7A890080AB1A /* LaunchScreen.storyboard */; };
+		AB45A3131E4C7A890080AB1A /* PlayCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB45A3121E4C7A890080AB1A /* PlayCardTests.m */; };
+		AB45A31E1E4C7A890080AB1A /* PlayCardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB45A31D1E4C7A890080AB1A /* PlayCardUITests.m */; };
+		AB45A32D1E4C7ADD0080AB1A /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = AB45A32C1E4C7ADD0080AB1A /* Card.m */; };
+		AB45A3371E4E09620080AB1A /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = AB45A3361E4E09620080AB1A /* PlayingCard.m */; };
+		AB45A33A1E4E09E50080AB1A /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = AB45A3391E4E09E50080AB1A /* Deck.m */; };
+		AB45A33D1E4E0AC00080AB1A /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = AB45A33C1E4E0AC00080AB1A /* PlayingCardDeck.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB45A30F1E4C7A890080AB1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB45A2ED1E4C7A890080AB1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB45A2F41E4C7A890080AB1A;
+			remoteInfo = PlayCard;
+		};
+		AB45A31A1E4C7A890080AB1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB45A2ED1E4C7A890080AB1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB45A2F41E4C7A890080AB1A;
+			remoteInfo = PlayCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB45A2F51E4C7A890080AB1A /* PlayCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB45A2F91E4C7A890080AB1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB45A2FB1E4C7A890080AB1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB45A2FC1E4C7A890080AB1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB45A2FE1E4C7A890080AB1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB45A2FF1E4C7A890080AB1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB45A3021E4C7A890080AB1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB45A3041E4C7A890080AB1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB45A3071E4C7A890080AB1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB45A3091E4C7A890080AB1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB45A30E1E4C7A890080AB1A /* PlayCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB45A3121E4C7A890080AB1A /* PlayCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayCardTests.m; sourceTree = "<group>"; };
+		AB45A3141E4C7A890080AB1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB45A3191E4C7A890080AB1A /* PlayCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB45A31D1E4C7A890080AB1A /* PlayCardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayCardUITests.m; sourceTree = "<group>"; };
+		AB45A31F1E4C7A890080AB1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB45A32B1E4C7ADD0080AB1A /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = ../Card.h; sourceTree = "<group>"; };
+		AB45A32C1E4C7ADD0080AB1A /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = ../Card.m; sourceTree = "<group>"; };
+		AB45A3351E4E09620080AB1A /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		AB45A3361E4E09620080AB1A /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		AB45A3381E4E09E50080AB1A /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		AB45A3391E4E09E50080AB1A /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		AB45A33B1E4E0AC00080AB1A /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		AB45A33C1E4E0AC00080AB1A /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB45A2F21E4C7A890080AB1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB45A30B1E4C7A890080AB1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB45A3161E4C7A890080AB1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB45A2EC1E4C7A890080AB1A = {
+			isa = PBXGroup;
+			children = (
+				AB45A2F71E4C7A890080AB1A /* PlayCard */,
+				AB45A3111E4C7A890080AB1A /* PlayCardTests */,
+				AB45A31C1E4C7A890080AB1A /* PlayCardUITests */,
+				AB45A2F61E4C7A890080AB1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB45A2F61E4C7A890080AB1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB45A2F51E4C7A890080AB1A /* PlayCard.app */,
+				AB45A30E1E4C7A890080AB1A /* PlayCardTests.xctest */,
+				AB45A3191E4C7A890080AB1A /* PlayCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB45A2F71E4C7A890080AB1A /* PlayCard */ = {
+			isa = PBXGroup;
+			children = (
+				AB45A2FE1E4C7A890080AB1A /* ViewController.h */,
+				AB45A2FF1E4C7A890080AB1A /* ViewController.m */,
+				AB45A3011E4C7A890080AB1A /* Main.storyboard */,
+				AB45A3041E4C7A890080AB1A /* Assets.xcassets */,
+				AB45A3061E4C7A890080AB1A /* LaunchScreen.storyboard */,
+				AB45A3091E4C7A890080AB1A /* Info.plist */,
+				AB45A3341E4DF5690080AB1A /* Model */,
+				AB45A2F81E4C7A890080AB1A /* Supporting Files */,
+			);
+			path = PlayCard;
+			sourceTree = "<group>";
+		};
+		AB45A2F81E4C7A890080AB1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB45A2FB1E4C7A890080AB1A /* AppDelegate.h */,
+				AB45A2FC1E4C7A890080AB1A /* AppDelegate.m */,
+				AB45A2F91E4C7A890080AB1A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB45A3111E4C7A890080AB1A /* PlayCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB45A3121E4C7A890080AB1A /* PlayCardTests.m */,
+				AB45A3141E4C7A890080AB1A /* Info.plist */,
+			);
+			path = PlayCardTests;
+			sourceTree = "<group>";
+		};
+		AB45A31C1E4C7A890080AB1A /* PlayCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB45A31D1E4C7A890080AB1A /* PlayCardUITests.m */,
+				AB45A31F1E4C7A890080AB1A /* Info.plist */,
+			);
+			path = PlayCardUITests;
+			sourceTree = "<group>";
+		};
+		AB45A3341E4DF5690080AB1A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB45A32B1E4C7ADD0080AB1A /* Card.h */,
+				AB45A32C1E4C7ADD0080AB1A /* Card.m */,
+				AB45A3381E4E09E50080AB1A /* Deck.h */,
+				AB45A3391E4E09E50080AB1A /* Deck.m */,
+				AB45A3351E4E09620080AB1A /* PlayingCard.h */,
+				AB45A3361E4E09620080AB1A /* PlayingCard.m */,
+				AB45A33B1E4E0AC00080AB1A /* PlayingCardDeck.h */,
+				AB45A33C1E4E0AC00080AB1A /* PlayingCardDeck.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB45A2F41E4C7A890080AB1A /* PlayCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB45A3221E4C7A890080AB1A /* Build configuration list for PBXNativeTarget "PlayCard" */;
+			buildPhases = (
+				AB45A2F11E4C7A890080AB1A /* Sources */,
+				AB45A2F21E4C7A890080AB1A /* Frameworks */,
+				AB45A2F31E4C7A890080AB1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayCard;
+			productName = PlayCard;
+			productReference = AB45A2F51E4C7A890080AB1A /* PlayCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB45A30D1E4C7A890080AB1A /* PlayCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB45A3251E4C7A890080AB1A /* Build configuration list for PBXNativeTarget "PlayCardTests" */;
+			buildPhases = (
+				AB45A30A1E4C7A890080AB1A /* Sources */,
+				AB45A30B1E4C7A890080AB1A /* Frameworks */,
+				AB45A30C1E4C7A890080AB1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB45A3101E4C7A890080AB1A /* PBXTargetDependency */,
+			);
+			name = PlayCardTests;
+			productName = PlayCardTests;
+			productReference = AB45A30E1E4C7A890080AB1A /* PlayCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB45A3181E4C7A890080AB1A /* PlayCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB45A3281E4C7A890080AB1A /* Build configuration list for PBXNativeTarget "PlayCardUITests" */;
+			buildPhases = (
+				AB45A3151E4C7A890080AB1A /* Sources */,
+				AB45A3161E4C7A890080AB1A /* Frameworks */,
+				AB45A3171E4C7A890080AB1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB45A31B1E4C7A890080AB1A /* PBXTargetDependency */,
+			);
+			name = PlayCardUITests;
+			productName = PlayCardUITests;
+			productReference = AB45A3191E4C7A890080AB1A /* PlayCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB45A2ED1E4C7A890080AB1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Anton Eysner";
+				TargetAttributes = {
+					AB45A2F41E4C7A890080AB1A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					AB45A30D1E4C7A890080AB1A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB45A2F41E4C7A890080AB1A;
+					};
+					AB45A3181E4C7A890080AB1A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB45A2F41E4C7A890080AB1A;
+					};
+				};
+			};
+			buildConfigurationList = AB45A2F01E4C7A890080AB1A /* Build configuration list for PBXProject "PlayCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB45A2EC1E4C7A890080AB1A;
+			productRefGroup = AB45A2F61E4C7A890080AB1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB45A2F41E4C7A890080AB1A /* PlayCard */,
+				AB45A30D1E4C7A890080AB1A /* PlayCardTests */,
+				AB45A3181E4C7A890080AB1A /* PlayCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB45A2F31E4C7A890080AB1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB45A3081E4C7A890080AB1A /* LaunchScreen.storyboard in Resources */,
+				AB45A3051E4C7A890080AB1A /* Assets.xcassets in Resources */,
+				AB45A3031E4C7A890080AB1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB45A30C1E4C7A890080AB1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB45A3171E4C7A890080AB1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB45A2F11E4C7A890080AB1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB45A33A1E4E09E50080AB1A /* Deck.m in Sources */,
+				AB45A3371E4E09620080AB1A /* PlayingCard.m in Sources */,
+				AB45A3001E4C7A890080AB1A /* ViewController.m in Sources */,
+				AB45A2FD1E4C7A890080AB1A /* AppDelegate.m in Sources */,
+				AB45A33D1E4E0AC00080AB1A /* PlayingCardDeck.m in Sources */,
+				AB45A2FA1E4C7A890080AB1A /* main.m in Sources */,
+				AB45A32D1E4C7ADD0080AB1A /* Card.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB45A30A1E4C7A890080AB1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB45A3131E4C7A890080AB1A /* PlayCardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB45A3151E4C7A890080AB1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB45A31E1E4C7A890080AB1A /* PlayCardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB45A3101E4C7A890080AB1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB45A2F41E4C7A890080AB1A /* PlayCard */;
+			targetProxy = AB45A30F1E4C7A890080AB1A /* PBXContainerItemProxy */;
+		};
+		AB45A31B1E4C7A890080AB1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB45A2F41E4C7A890080AB1A /* PlayCard */;
+			targetProxy = AB45A31A1E4C7A890080AB1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB45A3011E4C7A890080AB1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB45A3021E4C7A890080AB1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB45A3061E4C7A890080AB1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB45A3071E4C7A890080AB1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB45A3201E4C7A890080AB1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB45A3211E4C7A890080AB1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB45A3231E4C7A890080AB1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlayCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eysner.PlayCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AB45A3241E4C7A890080AB1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlayCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eysner.PlayCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AB45A3261E4C7A890080AB1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlayCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eysner.PlayCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayCard.app/PlayCard";
+			};
+			name = Debug;
+		};
+		AB45A3271E4C7A890080AB1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlayCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eysner.PlayCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayCard.app/PlayCard";
+			};
+			name = Release;
+		};
+		AB45A3291E4C7A890080AB1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PlayCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eysner.PlayCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PlayCard;
+			};
+			name = Debug;
+		};
+		AB45A32A1E4C7A890080AB1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PlayCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eysner.PlayCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PlayCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB45A2F01E4C7A890080AB1A /* Build configuration list for PBXProject "PlayCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB45A3201E4C7A890080AB1A /* Debug */,
+				AB45A3211E4C7A890080AB1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB45A3221E4C7A890080AB1A /* Build configuration list for PBXNativeTarget "PlayCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB45A3231E4C7A890080AB1A /* Debug */,
+				AB45A3241E4C7A890080AB1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB45A3251E4C7A890080AB1A /* Build configuration list for PBXNativeTarget "PlayCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB45A3261E4C7A890080AB1A /* Debug */,
+				AB45A3271E4C7A890080AB1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB45A3281E4C7A890080AB1A /* Build configuration list for PBXNativeTarget "PlayCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB45A3291E4C7A890080AB1A /* Debug */,
+				AB45A32A1E4C7A890080AB1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB45A2ED1E4C7A890080AB1A /* Project object */;
+}
